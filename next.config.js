@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
   async redirects() {
     return [
       {
@@ -29,6 +28,11 @@ const nextConfig = {
         source: '/impact(-cox)?-slack',
         destination:
           'https://join.slack.com/t/techstarscox/shared_invite/zt-1e7tjypjl-DHXE0GJhcVX~Y21g_PMzoQ',
+        permanent: true
+      },
+      {
+        source: '/atl(anta)?(-cox)?-mentors',
+        destination: 'https://airtable.com/shrEXb6Bw8DXg6iqL',
         permanent: true
       },
       {
