@@ -13,7 +13,13 @@ const nextConfig = {
         permanent: true
       },
       {
-        source: '/atl(anta)?(-cox)?-demo-day(-2022)?',
+        source: '/atl(anta)?(-cox)?-demo-day(-2023)?',
+        destination:
+          'https://www.eventbrite.com/e/techstars-atlanta-powered-by-cox-enterprises-demo-day-2023-tickets-699708195047',
+        permanent: true
+      },
+      {
+        source: '/atl(anta)?(-cox)?-demo-day-2022',
         destination:
           'https://www.eventbrite.com/e/techstars-atlanta-powered-by-cox-enterprises-demo-day-2022-tickets-394449387737',
         permanent: true
