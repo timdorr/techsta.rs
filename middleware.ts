@@ -23,9 +23,7 @@ export function middleware(request: NextRequest) {
   }`
 
   let base = ''
-  if (hostname.startsWith('atlanta.')) base = 'atlanta'
+  if (hostname.startsWith('atlanta.')) base = '/atlanta'
 
-  return NextResponse.rewrite(
-    new URL(`/${base}${path == '/' ? '' : path}`, request.url)
-  )
+  return NextResponse.rewrite(new URL(`${base}${path}`, request.url))
 }
