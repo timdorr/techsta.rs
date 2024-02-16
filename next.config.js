@@ -6,7 +6,7 @@ const nextConfig = {
         has: [{ type: 'host', value: 'atlanta.*' }],
         source: '/lookbook',
         destination: 'https://airtable.com/appiJrhblScYe8CC5/shrU63oKOpQH0ULnA',
-        permanent: true
+        permanent: false
       },
 
       {
