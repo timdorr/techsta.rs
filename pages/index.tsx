@@ -11,9 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="h-screen flex justify-center items-center text-[20vw]">
+      <section className="h-screen flex justify-center items-center text-[20vw]">
         <Image src={logo} alt="Techstars" priority />
-      </main>
+      </section>
     </>
   )
 }
