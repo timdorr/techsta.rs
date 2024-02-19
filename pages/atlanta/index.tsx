@@ -9,7 +9,7 @@ import hero from '@/public/atlanta-hero.jpg'
 
 export function Header() {
   return (
-    <header className="mx-auto max-w-7xl flex items-center justify-between p-6 lg:px-8">
+    <header className="mx-auto max-w-7xl flex items-center justify-between p-4 lg:py-6 lg:px-0">
       <Link href="/" className="p-2 block relative lg:h-8 lg:w-48 h-6 w-32">
         <Image
           src={logo}
@@ -60,7 +60,7 @@ export default function Atlanta() {
             <div className="absolute h-full w-full bg-gradient-to-t from-black z-1"></div>
           </div>
 
-          <div className="relative pt-24 mx-auto max-w-7xl px-6 lg:px-8 z-10">
+          <div className="relative pt-24 mx-auto max-w-7xl z-10">
             <div className="flex">
               <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 bg-white text-gray-600 text-nowrap ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 <span className="font-semibold text-green-600">
