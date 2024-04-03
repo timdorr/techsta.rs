@@ -53,6 +53,11 @@ const nextConfig = {
         destination:
           'https://kevinliu.notion.site/2e6719804c8a43f0a934f40060feda2b?v=1227cf4e95864fbbb969e4a214e5534a',
         permanent: true
+      },
+      {
+        source: '/tinydoor',
+        destination: 'https://www.instagram.com/ar/1158095111804520/',
+        permanent: true
       }
     ]
   }
