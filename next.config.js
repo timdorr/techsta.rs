@@ -8,7 +8,11 @@ const nextConfig = {
         destination: 'https://airtable.com/appiJrhblScYe8CC5/shrU63oKOpQH0ULnA',
         permanent: false
       },
-
+      {
+        source: '/impact-24-lookbook',
+        destination: 'https://airtable.com/appiJrhblScYe8CC5/shrOBt6VuBgPKpWtD',
+        permanent: false
+      },
       {
         source: '/atl(anta)?(-cox)?',
         destination: 'https://www.techstars.com/accelerators/atlanta-cox',
@@ -17,18 +21,6 @@ const nextConfig = {
       {
         source: '/impact(-cox)?',
         destination: 'https://www.techstars.com/accelerators/impact-cox',
-        permanent: true
-      },
-      {
-        source: '/atl(anta)?(-cox)?-demo-day(-2023)?',
-        destination:
-          'https://www.eventbrite.com/e/techstars-atlanta-powered-by-cox-enterprises-demo-day-2023-tickets-699708195047',
-        permanent: true
-      },
-      {
-        source: '/atl(anta)?(-cox)?-demo-day-2022',
-        destination:
-          'https://www.eventbrite.com/e/techstars-atlanta-powered-by-cox-enterprises-demo-day-2022-tickets-394449387737',
         permanent: true
       },
       {
