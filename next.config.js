@@ -14,6 +14,11 @@ const nextConfig = {
         permanent: false
       },
       {
+        source: '/atlanta-24-lookbook',
+        destination: 'https://airtable.com/appiJrhblScYe8CC5/shroM3DByfIQqDWSx',
+        permanent: false
+      },
+      {
         source: '/atl(anta)?(-cox)?',
         destination: 'https://www.techstars.com/accelerators/atlanta-cox',
         permanent: true
