@@ -57,7 +57,7 @@ export default function Atlanta() {
               fill
               priority
             />
-            <div className="absolute h-full w-full bg-gradient-to-t from-black z-1"></div>
+            <div className="absolute h-full w-full bg-linear-to-t from-black z-1"></div>
           </div>
 
           <div className="relative pt-24 mx-auto max-w-7xl z-10">
@@ -99,7 +99,7 @@ export default function Atlanta() {
             <div className="mt-10 flex items-center gap-x-6">
               <a
                 href="https://apply.techstars.com/?accelerator=Techstars%20Atlanta%20Powered%20by%20Cox%20Enterprises"
-                className="rounded-md bg-green-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-400"
+                className="rounded-md bg-green-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-400 focus-visible:outline-solid focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-400"
               >
                 Apply Now
               </a>
